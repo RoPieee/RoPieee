@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "⛔ Question"
+    url: https://community.roonlabs.com/c/audio-gear-talk/ropieee/56
+    about: "Please do not use GitHub for asking questions. If you simply have a question, then the Roon forum is the best place to ask it. Thanks in advance for helping us keep the issue tracker clean!"
+  - name: "⛔ Problems with Roon"
+    url: https://community.roonlabs.com
+    about: "If you have problems with Roon itself, please report them at https://community.roonlabs.com."

@@ -2,7 +2,6 @@ name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - spockfish
 body:
@@ -33,8 +32,29 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 2025.06.1 (Default)
+        - 2025.06
+        - 2025.05
+        - 2025.04
+        - 2025.02
+        - 2025.01
+      default: 0
+    validations:
+      required: true
+- type: dropdown
+    id: hardware
+    attributes:
+      label: Hardwaer
+      description: Which hardware are you using?
+      options:
+        - Raspberry Pi 5
+        - Raspberry Pi 5 Compute Module
+        - Raspberry Pi 4
+        - Raspberry Pi 4 Compute Module
+        - Raspberry Pi 3
+        - Raspberry Pi 3 Compute Module
+        - Raspberry Pi Zero 2 W
+        - Allo Usbridge (Signature)
       default: 0
     validations:
       required: true

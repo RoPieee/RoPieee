@@ -1,5 +1,5 @@
 # RoPieee
-![Static Badge](https://img.shields.io/badge/version-2025.06.1-blue)
+![Static Badge](https://img.shields.io/badge/Release-2026.06.1-blue?link=https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
 
 An easy-to-use Raspberry Pi image for network audio streaming solutions.
 

@@ -15,6 +15,8 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 * IMPROVEMENT: some UI polish to the Network tab
 * FIX: Spotify does not work on HAT with mixer
 
+[![Static Badge](https://img.shields.io/badge/Download-2025.06.1-blue)](https://github.com/RoPieee/RoPieee/releases/tag/2025.06.1)
+
 **2025.06**
 
 * NEW: add support for USB HID devices as remote control

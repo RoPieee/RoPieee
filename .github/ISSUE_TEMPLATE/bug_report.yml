@@ -45,7 +45,7 @@ body:
   - type: dropdown
     id: hardware
     attributes:
-      label: Hardwaer
+      label: Hardware
       description: Which hardware are you using?
       options:
         - Raspberry Pi 5
@@ -62,7 +62,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Additional information
+      description: Provide additional information, if you think this helps in any way.
       render: shell
       

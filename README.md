@@ -1,5 +1,5 @@
 # RoPieee
-An easy-to-use Raspberry Pi image for audio streaming solutions.
+An easy-to-use Raspberry Pi image for network audio streaming solutions.
 
 RoPieee is an image for the Raspberry Pi devices (3,4 and 5 family) that is capable of running several audio streaming platforms. RoPieee can be seen as an appliance, and as such requires no computer knowledge whatsoever.
 

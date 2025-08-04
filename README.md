@@ -22,7 +22,7 @@ RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a ve
 4. Insert the SD card in the Raspberry Pi and power it up. 
 5. Grab a cup of :coffee:
 6. After 10 minutes or so, you should be able to reach RoPieee's webpage at https://ropieee.local
-7. You can configure several services from the services tab, but by default RoPieee runs [Roon Bridge](https://roonlabs.com) out of the box.
+7. You can configure several services from the services tab, but by default RoPieee runs [Roon Bridge](http://roonlabs.com) out of the box.
 8. RoPieee supports several audio HAT's that can be configured on the audio tab. USB Audio, for connecting USB DAC's, is enabled by default.
 
 ## Status

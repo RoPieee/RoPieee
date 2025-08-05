@@ -77,8 +77,7 @@ Furthermore you should now be able to reach RoPieee's internal webpage at http:/
 Congratulations! :muscle: :clap: :notes:
 
 > [!TIP]
-> If you can't reach RoPieee's webpage at http://ropieee.local, try to reach the unit directly by using its IP address. You can determine the IP using a port scan application (such as [Fing](https://www.fing.io/)) as  or via your router interface, often in a
-DHCP tab.
+> If you can't reach RoPieee's webpage at http://ropieee.local, try to reach the unit directly by using its IP address. You can determine the IP using a port scan application (such as [Fing](https://www.fing.io/)) or via your router interface, often in a DHCP configuration.
 
 ### General navigation
 

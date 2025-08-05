@@ -9,6 +9,7 @@ _Keep in mind that everything in this documentation is related to the latest ava
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Advanced topics](#advanced-topics)
+- [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 
 ## Installation
 
@@ -89,6 +90,13 @@ Once you **Apply** the changes, RoPieee will save the changes made and will show
 
 > [!IMPORTANT]
 > The changes made are only going to be effected after running the configure step. Depending on the changes, RoPieee can show a follow up notification stating that it requires a reboot. 
+
+### Audio settings
+
+On the `Audio` tab you can configure RoPieee's audio settings. First you can select a audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
+
+> [!NOTE]
+> Some HAT's support auto detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.
 
 ## Advanced topics
 

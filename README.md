@@ -9,11 +9,12 @@ RoPieee is an image for the Raspberry Pi devices (3,4 and 5 family) that is capa
 ## Introduction
 
 These days many :musical_note: fans listen to music via a streaming solution. If you own something of HiFi gear (more then just your phone), with a separate DAC for example, the Raspberry Pi device is a very nice and affordable solution for acting as a network bridge.
-RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a very capable streaming endpoint, within 10 minutes. Just insert an SD card, turn it on, and grab a cup of coffee. After 10 minutes RoPieee is ready to go, and can be configured from an easy to understand web interface. 
+RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a very capable streaming endpoint, within 15 minutes. Just insert an SD card, turn it on, and grab a cup of coffee. After 10 minutes RoPieee is ready to go, and can be configured from an easy to understand web interface. 
 
 ## Table of contents
 
 - [Quick start](#quick-start)
+- [Highlights](#highlights)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Releases](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
 - [Documentation](https://github.com/RoPieee/RoPieee/blob/main/DOCUMENTATION.md)
@@ -25,9 +26,13 @@ RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a ve
 3. Make sure you have a wired ethernet cable plugged in.
 4. Insert the SD card in the Raspberry Pi and power it up. 
 5. Grab a cup of :coffee: (or a :tropical_drink:)
-6. After 10 minutes or so, you should be able to reach RoPieee's webpage at http://ropieee.local
-7. You can configure several services from the services tab, but by default RoPieee runs [Roon Bridge](https://roonlabs.com) out of the box.
-8. RoPieee supports several audio HAT's that can be configured on the audio tab. USB Audio, for connecting USB DAC's, is enabled by default.
+6. After 15 minutes or so, you should be able to reach RoPieee's webpage at http://ropieee.local
+
+_You're now ready to stream music using Roon! For other functionality please have a look at the [documentation](https://github.com/RoPieee/RoPieee/blob/main/DOCUMENTATION.md)_
+
+## Highlights :sparkles:
+
+RoPieee can act as an endpoint for [Roon](https://roonlabs.com), Spotify, Airplay (2), [Lyrion](https://lyrion.org/) (former Logitech/Squeezebox), UPnP, [HQPlayer](https://signalyst.com/consumer/) and [Plexamp](https://www.plex.tv/plexamp/). It provides support for the official Raspberry Pi touchscreens (both version 1 and 2) while using Roon, has extensive support for remote controls ([Flirc](https://flirc.tv/), OSMC and generic USB input devices) and has an advanced update mechanism.
 
 ## Bugs and feature requests
 

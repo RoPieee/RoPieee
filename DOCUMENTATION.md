@@ -147,7 +147,7 @@ If you have attached an official Raspberry Pi Touchscreen (both generation 1 and
 
 If the display is upside down, change the display **Orientation** setting to “Rotated” (this is case dependant).
 
-Type the name of the Roon Zone that the display should be associated with (e.g. what content should display on the screen): this must be exactly as is specified in Roon settings.
+Type the name of the **Roon Default Zone** that the display should be associated with (e.g. what content should display on the screen): _this must be exactly as is specified in Roon settings._
 
 > [!TIP]
 > You can change the controlled Roon Zone dynamically on the touchscreen by pressing the zone label.
@@ -161,7 +161,7 @@ Most settings speak for themselves. If you provide a **Screen Saver Timeout**, t
 > The display can show content from any Roon Zone, not just the Raspberry Pi attached to the display.
 
 > [!IMPORTANT]
-> To be able to show content, it is required to activate RoPieee's Roon Extension in Roon Settings.
+> To be able to show content, it is required to activate RoPieee's Roon Extension in Roon settings.
 
 ## Advanced topics
 

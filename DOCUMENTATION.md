@@ -127,10 +127,16 @@ If that's the case, a new tab labelled **Wireless** will show next to the **Wire
 
 ![Wireless settings!](images/ropieee-wireless.png)
 
+Now you can select the **Interface**: RoPieee supports not only the internal wireless interface, but also external USB WiFi dongles. The reason to use one of those is that they have a larger antenna in comparison with the onboard chip.
 
+Next click the **SCAN** button to start scanning for wireless networks. After a few seconds the scanning will finish and you are able to select the correct wireless network. Provide a password and your wireless connection is up and running.
 
 > [!TIP]
-> Although the debate about wired vs. wireless amongst audiophiles is on-going, we advise wired as the preferred connection type. It's advantages outweigh possible disadvantages by a large margin.
+> Although the debate about wired vs. wireless amongst audiophiles is on-going, we advise wired as the preferred connection type. Its advantages outweigh possible disadvantages by a large margin.
+
+
+
+
 
 
 

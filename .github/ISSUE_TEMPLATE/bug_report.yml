@@ -59,6 +59,13 @@ body:
       default: 0
     validations:
       required: true
+  - type: input
+    id: feedback
+    attributes:
+      label: RoPieee Feedback ID
+      description: Please provide the Feedback ID, if you sent any
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:

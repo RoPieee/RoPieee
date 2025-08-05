@@ -12,6 +12,9 @@ _Keep in mind that everything in this documentation is related to the latest ava
   - [Audio](#audio-settings)
   - [Network](#network-settings)
   - [Display](#display-settings)
+  - [Remote](#remote-settings)
+  - [Advanced](#advanced-settings)
+  - [Services](#services-settings)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md)
@@ -89,7 +92,7 @@ On the **`System`** tab you can configure the **Device Name** and **Timezone**. 
 
 If you only have one RoPieee unit in your network, then there's no real need to change its name. If you're running more than 1 unit, it is required to change its name to something unique. Don't use spaces in the device name.
 
-The timezone is used internally by RoPieee. There's no need to change this, unless your using an additional display (TODO).
+The timezone is used internally by RoPieee. There's no need to change this, unless your using an additional [display](#display-settings).
 
 Once you **Apply** the changes, RoPieee will save the changes made and will show a popup stating that you need to run a configure step. 
 
@@ -162,6 +165,30 @@ Most settings speak for themselves. If you provide a **Screen Saver Timeout**, t
 
 > [!IMPORTANT]
 > To be able to show content, it is required to activate RoPieee's Roon Extension in Roon settings.
+
+### Remote settings
+
+RoPieee supports various remote control solutions: Flirc, OSMC and generic USB input devices. It is automatically detected, as shown in **Remote Control Type**.
+
+> [!IMPORTANT]
+> The remote control functionality only works while using Roon.
+
+With the generic USB input device support its possible to use a generic USB keyboard, but also 'fancy' input controllers. There are even some (rare) USB DAC's that support this, which means you can use buttons directly on the DAC to control your playback experience.
+
+> [!IMPORTANT]
+> To be able to control playback, it is required to activate RoPieee's Roon Extension in Roon settings.
+
+If there's also a display connected, it is possible to enable **Follow Display Zone**. With this functionality the remote control will 'follow' the Roon Zone as actively displayed: remote control commands will be send to the displayed zone. Otherwise you can configure the controlled zone separately from the displayed zone.
+
+### Advanced settings
+
+The **`Advanced`** tab contains optional settings not required for basic use.
+
+### Services settings
+
+Roon is the streaming service enabled by default in RoPieee. However, it is possible to enable and configure additional streaming solutions on the **`Services`** tab.
+
+[TODO]
 
 ## Advanced topics
 

@@ -10,6 +10,7 @@ _Keep in mind that everything in this documentation is related to the latest ava
 - [Configuration](#configuration)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
+- [Appendix B: USB DAC's with native DSD](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md)
 
 ## Installation
 
@@ -93,7 +94,7 @@ Once you **Apply** the changes, RoPieee will save the changes made and will show
 
 ### Audio settings
 
-On the **`Audio`** tab you can configure RoPieee's audio settings. First you can configure an audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
+On the **`Audio`** tab you can configure RoPieee's audio settings. First you can configure an audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT list over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 
 > [!NOTE]
 > Some HAT's support automatic detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.
@@ -128,74 +129,4 @@ That's not necessarily the case for DSD: if your USB DAC supports DSD, it's not 
 > [!IMPORTANT]
 > Native DSD does not offer any advantages over DoP, except that it uses slightly less bandwith. This often results in a higher maximum sample rate with native DSD vs. DoP.
 
-Over the years we have been able to add native DSD support for many DAC's by patching the RoPieee's underlying Operating System (which is Linux). Here are the DAC's for which RoPieee has added explicit native DSD support:
-
-_Warning: this list does **not** mean that native DSD is only suppported on these DAC's_
-
-| Manufacturer | Model |
-| -------------| ----- |
-| Amanero | Combo384 USB interface |
-| APL | Hi-Fi DSD-MR |
-| APL | Hi-Fi DSD-SR |
-| Astell&Kern | PEE51
-| Audiolab | M-DAC+
-| Audiolab | 8300CDQ
-| Aune | X1S 32BIT/384 DSD DAC
-| AURALiC | VEGA
-| AURALiC | Altair G2.1
-| Bryston | BDA3
-| CH Precision | C1 DAC
-| Classé | Delta PRE
-| Cyrus | QXR
-| Denafrips | Ares DAC
-| DIYINHK | DSD DXD 384kHz USB to I2S/DSD
-| Eastern El. | MiniMax Tube DAC Supreme
-| Furutech | ADL Stratos
-| Gustard | DAC-X20U
-| HDTA | Serenade DSD
-| Hegel | HD12
-| Holo Springs | Level 3 R2R DAC
-| iFi | Audio micro/nano iDSD
-| iFi | Audio Pro iDSD
-| JLsounds | I2SoverUSB
-| LH Labs | VI DAC Infinity
-| M2TECH | Young MkIII
-| Matrix | Audio X-Sabre
-| Matrix | Audio Mini-i Pro
-| Matrix | Audio X-SPDIF 2
-| MiniDSP | MCHStreamer
-| Mola Mola | DAC
-| Mola Mola | Makua
-| Mola Mola | Kula
-| Mola Mola | Tambaqui
-| MSB | Technology
-| MSB | Pro USB
-| Musical Fidelity | M6x DAC
-| Mutec | MC3+ USB
-| Mytek | Brooklyn DAC
-| Mytek | Brooklyn DAC+
-| Mytek | Manhattan DAC
-| Nagra | DAC
-| NuPrime | uDSD
-| NuPrime | DAC-9
-| NuPrime | DAC-10
-| NuPrime | IDA-16
-| OPPO | HA-1
-| OPPO | HA-2
-| OPPO | UDP-205
-| OPPO | Sonica
-| PS Audio | NuWave DAC
-| Quad | Vena 2
-| Rotel | DAC
-| TEAC | UD-503
-| Topping | DX7s
-| Singxer | F-1 converter board
-| SMSL | M8A
-| SMSL | M100
-| SMSL | M300 MkII
-| Unison Research | Unico CD Due
-| Wyred 4 Sound | DAC-2 DSD
-| Wyred 4 Sound | DAC-2v2SE
-
-
-
+Over the years we have been able to add native DSD support for many DAC's by patching the RoPieee's underlying Operating System (which is Linux). [Here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md) are the DAC's for which RoPieee has added explicit native DSD support.

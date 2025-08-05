@@ -115,7 +115,22 @@ And with **USB Auto Suspend** you can make the USB DAC shutdown after a defined 
 > [!WARNING]
 > Not all USB DAC's support this! _In fact: most don't._
 
+### Network settings
 
+On the **`Network`** tab you can configure RoPieee's network settings. RoPieee will use a cabled connection with DHCP as its default configuration. You click on the button labelled More Info to get actual information about the current connection. You can change the connection type from DHCP to static by changing the **Configuration Method**.
+
+> [!TIP]
+> We advise to use DHCP at all times. In the rare case you require a static IP address, use your router's setting if possible.
+
+RoPieee also supports wireless (WiFi) connections, if a wireless interface is available on your hardware. First you need to **Enable Wireless**, after which RoPieee will check if the necessary hardware is available.
+If that's the case, a new tab labelled **Wireless** will show next to the **Wired** tab:
+
+![Wireless settings!](images/ropieee-wireless.png)
+
+
+
+> [!TIP]
+> Although the debate about wired vs. wireless amongst audiophiles is on-going, we advise wired as the preferred connection type. It's advantages outweigh possible disadvantages by a large margin.
 
 
 

@@ -11,6 +11,7 @@ _Keep in mind that everything in this documentation is related to the latest ava
   - [System](#system-settings)
   - [Audio](#audio-settings)
   - [Network](#network-settings)
+  - [Display](#display-settings)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md)
@@ -137,11 +138,30 @@ Next click the **SCAN** button to start scanning for wireless networks. After a 
 > [!TIP]
 > Although the debate about wired vs. wireless amongst audiophiles is on-going, we advise wired as the preferred connection type. Its advantages outweigh possible disadvantages by a large margin.
 
+### Display settings
 
+If you have attached an official Raspberry Pi Touchscreen (both generation 1 and 2), RoPieee will show a **`Display`** tab where you can configure the behaviour of the touchscreen.
 
+> [!IMPORTANT]
+> The touchscreen functionality only works while using Roon.
 
+If the display is upside down, change the display **Orientation** setting to “Rotated” (this is case dependant).
 
+Type the name of the Roon Zone that the display should be associated with (e.g. what content should display on the screen): this must be exactly as is specified in Roon settings.
 
+> [!TIP]
+> You can change the controlled Roon Zone dynamically on the touchscreen by pressing the zone label.
+
+Most settings speak for themselves. If you provide a **Screen Saver Timeout**, the screen will turn off after the specified timeout. Furthermore, if you enable the **Show Clock** option, a clock will be displayed after the timeout.
+
+> [!TIP]
+> You can toggle the different states (player, clock and off) by pressing the cover art section on the screen.
+
+> [!TIP]
+> The display can show content from any Roon Zone, not just the Raspberry Pi attached to the display.
+
+> [!IMPORTANT]
+> To be able to show content, it is required to activate RoPieee's Roon Extension in Roon Settings.
 
 ## Advanced topics
 

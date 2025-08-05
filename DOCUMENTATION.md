@@ -44,7 +44,7 @@ RoPieee images are provided in a compressed (XZ) variant and an uncompressed one
 > If compression sounds like 'abracadabra' to you: don't worry, just download the uncompressed variant.
 
 > [!IMPORTANT]
-> Make sure you download the correct image corresponding your hardware.
+> Make sure you download the correct image corresponding with your hardware.
 
 ### Start the installation process
 

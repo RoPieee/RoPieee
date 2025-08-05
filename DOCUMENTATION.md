@@ -77,6 +77,19 @@ If you click on **`Continue`** (after you donated of course :wink:), you will se
 
 ## Configuration
 
+### System settings
+
+On the **`System`** tab you can configure the **Device Name** and **Timezone**. The device name (by default `ropieee`) is the name with which your RoPieee unit identifies on your network, and how you can reach it in a browser (via http://ropieee.local, where `ropieee` is the device name). 
+
+If you only have one RoPieee unit in your network, then there's no real need to change its name. If you're running more than 1 unit, it is required to change its name to something unique. Don't use spaces in the device name.
+
+The timezone is used internally by RoPieee. There's no need to change this, unless your using an additional display (TODO).
+
+Once you **Apply** the changes, RoPieee will save the changes made and will show a popup stating that you need to run a configure step. 
+
+> [!IMPORTANT]
+> The changes made are only going to be effected after running the configure step. Depending on the changes, RoPieee can show a follow up notification stating that it requires a reboot. 
+
 ## Advanced topics
 
 ### About native DSD support

@@ -28,7 +28,7 @@ Next to the Raspberry Pi, RoPieee also supports the now legacy network bridge fr
 
 To be able to write the RoPieee image to the Micro SD card you first need software like [Balena Etcher](https://etcher.balena.io/), and of course the latest RoPieee image that you can find [here](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md) 
 
-RoPieee images are provided in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size, but requires decompression. Software like [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you.
+RoPieee images are provided in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size, but requires decompression. Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you.
 
 > [!TIP]
 > If compression sounds like 'abracadabra' to you: don't worry, just download the uncompressed variant.
@@ -60,14 +60,22 @@ During the installation process the unit will reboot a few times. It will also s
 
 After 15 minutes or so the installation process has finished. This can be seen by looking at the green LED: it should have switched from fast blinking to a steady 'heartbeat' with ½ Hz.
 
-Furthermore you should now be able to reach RoPieee's internal webpage at http://ropieee.local
+Furthermore you should now be able to reach RoPieee's internal webpage at http://ropieee.local, and see this page:
 
-
-## Configuration
+![Welcome!](images/ropieee-welcome.png)
 
 Congratulations! :muscle: :clap: :notes:
 
-If you see this page you've managed to install RoPieee
+> [!TIP]
+> If you can't reach RoPieee's webpage at http://ropieee.local, try to reach the unit directly by using its IP address. You can determine the IP using a port scan application (such as [Fing](https://www.fing.io/)) as  or via your router interface, often in a
+DHCP tab.
 
-![Welcome!](images/ropieee-welcome.png)
+### General navigation
+
+If you click on **`Continue`** (after you donated of course :wink:), you will see RoPieee's regular webpage. It uses several tabs to group specific settings, so let's walk them through.
+
+## Configuration
+
+
+
 

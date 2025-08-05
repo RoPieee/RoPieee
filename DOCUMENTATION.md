@@ -52,7 +52,7 @@ Connect your computer to this WiFi network and use `goropieee` as password.
 When connected, browse to `http://192.168.250.1` to select your wireless network and enter your password.
 The unit will reboot, connect to your production wireless network, and then will continue the installation process.
 
-
+![Selecting your WiFi network](images/ropieee-ap-connect.png)
 
 ### Finish the installation process
 
@@ -64,3 +64,10 @@ Furthermore you should now be able to reach RoPieee's internal webpage at http:/
 
 
 ## Configuration
+
+Congratulations! :muscle: :clap: :notes:
+
+If you see this page you've managed to install RoPieee
+
+![Welcome!](images/ropieee-welcome.png)
+

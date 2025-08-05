@@ -6,7 +6,7 @@
 
 <p></p>
 
-[![Static Badge](https://img.shields.io/badge/Release-2025.06.1-blue)](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md#2025.06.1)
+[![Static Badge](https://img.shields.io/badge/Download%20the%20latest%20release-2025.06.1-blue)](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md#2025.06.1)
 
 RoPieee is an image for the Raspberry Pi devices (3, 4 and 5 family) that is capable of running several audio streaming platforms. RoPieee can be seen as an appliance, and as such requires no computer knowledge whatsoever. RoPieee's functionality is often called summarized as a 'network bridge'.
 

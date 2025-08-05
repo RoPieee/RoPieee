@@ -4,6 +4,11 @@ Over here you can find documentation about RoPieee - ranging from installation t
 
 _Keep in mind that everything in this documentation is related to the latest available stable release!_
 
+## Table of contents
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+
 ## Installation
 
 ### Hardware

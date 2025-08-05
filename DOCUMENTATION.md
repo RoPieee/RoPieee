@@ -1,0 +1,5 @@
+# Documentation
+
+## Installation
+
+## Configuration

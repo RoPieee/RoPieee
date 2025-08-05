@@ -181,7 +181,15 @@ If there's also a display connected, it is possible to enable **Follow Display Z
 
 ### Advanced settings
 
-The **`Advanced`** tab contains optional settings not required for basic use.
+The **`Advanced`** tab contains optional settings not required for basic use. It looks like this:
+
+![Advanced settings!](images/ropieee-advanced.png)
+
+The **Update Channel** describes on which release type the unit is running. This should be on `STABLE`, unless you explictely made the choice to participate in the `BETA` program (see the [Roon Forum](https://community.roonlabs.com/c/audio-gear-talk/ropieee/56) for that).
+
+If you're up to it, you can enable **Auto Update**. This makes it possible to install potential updates without the need to interfere. This setting requires **Reboot Schedule** to be configured too.
+
+With Web Authentication you can limit access to RoPieee's webpage by asking for a password whenever someone accesses RoPieee webpage.
 
 ### Services settings
 

@@ -93,7 +93,7 @@ Once you **Apply** the changes, RoPieee will save the changes made and will show
 
 ### Audio settings
 
-On the `Audio` tab you can configure RoPieee's audio settings. First you can select a audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
+On the `Audio` tab you can configure RoPieee's audio settings. First you can select a audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 
 > [!NOTE]
 > Some HAT's support auto detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.

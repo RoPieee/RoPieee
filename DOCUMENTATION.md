@@ -8,6 +8,9 @@ _Keep in mind that everything in this documentation is related to the latest ava
 
 - [Installation](#installation)
 - [Configuration](#configuration)
+  - [System](#system-settings)
+  - [Audio](#audio-settings)
+  - [Network](#network-settings)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md)

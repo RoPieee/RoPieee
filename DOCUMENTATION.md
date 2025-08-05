@@ -93,10 +93,30 @@ Once you **Apply** the changes, RoPieee will save the changes made and will show
 
 ### Audio settings
 
-On the `Audio` tab you can configure RoPieee's audio settings. First you can select a audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
+On the **`Audio`** tab you can configure RoPieee's audio settings. First you can configure an audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
 
 > [!NOTE]
-> Some HAT's support auto detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.
+> Some HAT's support automatic detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.
+
+If you have configured a HAT, you can also potentially enable **Dynamic Audio Power Management (DAPM)**: with this option it is possible to remove the audio signal completely (the HAT disables its output) - this can be handy when using a HAT with a TOSLINK output, for example.
+
+> [!WARNING]
+> Not all HAT's support DAPM!
+
+Secondly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
+
+![USB settings!](images/ropieee-usb.png)
+
+With the **USB Force Volume** setting you have the option to force the volume control of the USB DAC when starting up RoPieee. _This option is rarely needed._
+
+And with **USB Auto Suspend** you can make the USB DAC shutdown after a defined timeout when being idle. This can be handy when the USB DAC is directly driving your power amplifier, in which case the output is disabled.
+
+> [!WARNING]
+> Not all USB DAC's support this! _In fact: most don't._
+
+
+
+
 
 ## Advanced topics
 

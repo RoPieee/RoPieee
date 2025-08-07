@@ -57,12 +57,12 @@ RoPieee requires internet access during installation. Ideally this is done by at
 
 Connect your computer to this WiFi network and use `goropieee` as password.
 
-![Connecting to the RoPieee AP](images/ropieee-ap.png)
+![Connecting to the RoPieee AP](/docs/images/ropieee-ap.png)
 
 When connected, browse to `http://192.168.250.1` to select your wireless network and enter your password.
 The unit will reboot, connect to your production wireless network, and then will continue the installation process.
 
-![Selecting your WiFi network](images/ropieee-ap-connect.png)
+![Selecting your WiFi network](/docs/images/ropieee-ap-connect.png)
 
 ### Finish the installation process
 
@@ -72,7 +72,7 @@ After 15 minutes or so the installation process has finished. This can be seen b
 
 Furthermore you should now be able to reach RoPieee's internal webpage at http://ropieee.local, and see this page:
 
-![Welcome!](images/ropieee-welcome.png)
+![Welcome!](/docs/images/ropieee-welcome.png)
 
 Congratulations! :muscle: :clap: :notes:
 
@@ -112,7 +112,7 @@ If you have configured a HAT, you can also potentially enable **Dynamic Audio Po
 
 Secondly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
 
-![USB settings!](images/ropieee-usb.png)
+![USB settings!](/docs/images/ropieee-usb.png)
 
 With the **USB Force Volume** setting you have the option to force the volume control of the USB DAC when starting up RoPieee. _This option is rarely needed._
 
@@ -131,7 +131,7 @@ On the **`Network`** tab you can configure RoPieee's network settings. RoPieee w
 RoPieee also supports wireless (WiFi) connections, if a wireless interface is available on your hardware. First you need to **Enable Wireless**, after which RoPieee will check if the necessary hardware is available.
 If that's the case, a new tab labelled **Wireless** will show next to the **Wired** tab:
 
-![Wireless settings!](images/ropieee-wireless.png)
+![Wireless settings!](/docs/images/ropieee-wireless.png)
 
 Now you can select the **Interface**: RoPieee supports not only the internal wireless interface, but also external USB WiFi dongles. The reason to use one of those is that they have a larger antenna in comparison with the onboard chip.
 
@@ -183,7 +183,7 @@ If there's also a display connected, it is possible to enable **Follow Display Z
 
 The **`Advanced`** tab contains optional settings not required for basic use. It looks like this:
 
-![Advanced settings!](images/ropieee-advanced.png)
+![Advanced settings!](/docs/images/ropieee-advanced.png)
 
 The **Update Channel** describes on which release type the unit is running. This should be on `STABLE`, unless you explictely made the choice to participate in the `BETA` program (see the [Roon Community Forum](https://community.roonlabs.com/c/audio-gear-talk/ropieee/56) for that).
 

@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/RoPieee/RoPieee/blob/main/images/logo.png" width="300" title="RoPieee logo">
+<img src="https://github.com/RoPieee/RoPieee/blob/main/docs/images/logo.png" width="300" title="RoPieee logo">
 </p>
 <h3 align="center">An easy-to-use Raspberry Pi image for network audio streaming solutions</h3>
 <br/>

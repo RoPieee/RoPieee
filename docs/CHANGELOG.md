@@ -31,6 +31,8 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 * IMPROVEMENT: make device table sorting order persistent
 * IMPROVEMENT: update Linux kernel
 
+[![Static Badge](https://img.shields.io/badge/Download-2025.06-blue)](/docs/releases/2025_06.md)
+
 **2025.05**
 
 * IMPROVEMENT: [display] make zone list adaptive

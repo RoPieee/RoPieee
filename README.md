@@ -19,7 +19,7 @@ RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a ve
 - [Highlights](#highlights)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Releases](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
-- [Documentation](https://github.com/RoPieee/RoPieee/blob/main/DOCUMENTATION.md)
+- [Documentation](docs/DOCUMENTATION.md)
 
 ## Quick start
 

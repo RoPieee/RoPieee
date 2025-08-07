@@ -30,3 +30,49 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 * IMPROVEMENT: make device discovery more reliable
 * IMPROVEMENT: make device table sorting order persistent
 * IMPROVEMENT: update Linux kernel
+
+**2025.05**
+
+* IMPROVEMENT: [display] make zone list adaptive
+* IMPROVEMENT: update Plexamp component
+* IMPROVEMENT: update UPnP player component
+* IMPROVEMENT: speed up configure step
+* IMPROVEMENT: update Linux kernel
+* FIX: cracks and pops on the Usbridge
+* FIX: LEDs behave different
+
+**2025.04**
+
+* NEW: support for the new 'Raspberry Pi Display 2' touchscreen
+* NEW: support for the Raspberry Pi Compute Module 5
+* NEW: auto-update firmware on the Pi 4
+* IMPROVEMENT: upgrade Linux kernel to 6.12 LTS
+* IMPROVEMENT: [display] rotation now also works on the Pi 5
+* IMPROVEMENT: update Plexamp component
+* IMPROVEMENT: update Librespot component (Spotify)
+* IMPROVEMENT: update UPnP player component
+* FIX: RoPieee does not boot on Pi 5 Rev 1.1
+
+**2025.02**
+
+* NEW: auto-update firmware on the Pi 5
+* NEW: Squeezelite: enable downsampling
+* NEW: Squeezelite: support client side DSD decoding
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: slow down a bit on the Pi 5
+* ENHANCEMENT: update Squeezelite component
+* FIX: LEDs are inverted on Pi5
+
+**2025.01**
+
+* NEW: survive hostname change from webpage
+* NEW: install update from display
+* NEW: [display] implement Roon volume limits
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: update Plexamp component
+* IMPROVEMENT: update Shairport-Sync component (Airplay)
+* ENHANCEMENT: update Squeezelite (LMS) component
+* IMPROVEMENT: automagically switch to HTPDATE if NTPDATE keeps failing
+* IMPROVEMENT: webpage has it's own 'donate' page
+* FIX: [display] volume slider initial position is not correct
+* FIX: increase network online time-out

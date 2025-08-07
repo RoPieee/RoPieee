@@ -18,12 +18,12 @@ RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a ve
 - [Quick start](#quick-start)
 - [Highlights](#highlights)
 - [Bugs and feature requests](#bugs-and-feature-requests)
-- [Releases](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
+- [Releases](/docs/CHANGELOG.md)
 - [Documentation](docs/DOCUMENTATION.md)
 
 ## Quick start
 
-1. Download the right image from [here](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md)
+1. Download the right image from [here](/docs/CHANGELOG.md)
 2. Burn the image to an SD card (minimal 8GB) with a tool like [Balena Etcher](https://etcher.balena.io/)
 3. Make sure you have a wired ethernet cable plugged in.
 4. Insert the SD card in the Raspberry Pi and power it up. 

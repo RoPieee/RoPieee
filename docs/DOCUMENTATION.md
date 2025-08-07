@@ -16,8 +16,8 @@ _Keep in mind that everything in this documentation is related to the latest ava
   - [Advanced](#advanced-settings)
   - [Services](#services-settings)
 - [Advanced topics](#advanced-topics)
-- [Appendix A: supported HAT's](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
-- [Appendix B: USB DAC's with native DSD](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md)
+- [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
+- [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
 
 ## Installation
 
@@ -36,7 +36,7 @@ Next to the Raspberry Pi, RoPieee also supports the now legacy network bridge fr
 
 ### Preparing the Micro SD card
 
-To be able to write the RoPieee image to the Micro SD card you first need software like [Balena Etcher](https://etcher.balena.io/), and of course the latest RoPieee image that you can find [here](https://github.com/RoPieee/RoPieee/blob/main/CHANGELOG.md) 
+To be able to write the RoPieee image to the Micro SD card you first need software like [Balena Etcher](https://etcher.balena.io/), and of course the latest RoPieee image that you can find [here](/docs/CHANGELOG.md) 
 
 RoPieee images are provided in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size, but requires decompression. Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you.
 
@@ -100,7 +100,7 @@ Once you **Apply** the changes, RoPieee will save the changes made and will show
 
 ### Audio settings
 
-On the **`Audio`** tab you can configure RoPieee's audio settings. First you can configure an audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT list over [here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_A.md)
+On the **`Audio`** tab you can configure RoPieee's audio settings. First you can configure an audio HAT, if one attached. RoPieee supports an extensive set of HAT's, and is continously updated to support the latest models. You can find the complete HAT list over [here](/docs/APPENDIX_A.md)
 
 > [!NOTE]
 > Some HAT's support automatic detection, which means that RoPieee is able to detect them during installation. They will be configured automagically.
@@ -207,4 +207,4 @@ That's not necessarily the case for DSD: if your USB DAC supports DSD, it's not 
 > [!IMPORTANT]
 > Native DSD does not offer any advantages over DoP, except that it uses slightly less bandwith. This often results in a higher maximum sample rate with native DSD vs. DoP.
 
-Over the years we have been able to add native DSD support for many DAC's by patching the RoPieee's underlying Operating System (which is Linux). [Here](https://github.com/RoPieee/RoPieee/blob/main/APPENDIX_B.md) are the DAC's for which RoPieee has added explicit native DSD support.
+Over the years we have been able to add native DSD support for many DAC's by patching the RoPieee's underlying Operating System (which is Linux). [Here](/docs/APPENDIX_B.md) are the DAC's for which RoPieee has added explicit native DSD support.

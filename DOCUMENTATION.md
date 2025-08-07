@@ -185,7 +185,7 @@ The **`Advanced`** tab contains optional settings not required for basic use. It
 
 ![Advanced settings!](images/ropieee-advanced.png)
 
-The **Update Channel** describes on which release type the unit is running. This should be on `STABLE`, unless you explictely made the choice to participate in the `BETA` program (see the [Roon Forum](https://community.roonlabs.com/c/audio-gear-talk/ropieee/56) for that).
+The **Update Channel** describes on which release type the unit is running. This should be on `STABLE`, unless you explictely made the choice to participate in the `BETA` program (see the [Roon Community Forum](https://community.roonlabs.com/c/audio-gear-talk/ropieee/56) for that).
 
 If you're up to it, you can enable **Auto Update**. This makes it possible to install potential updates without the need to interfere. This setting requires **Reboot Schedule** to be enabled too.
 

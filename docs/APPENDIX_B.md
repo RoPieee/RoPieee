@@ -2,8 +2,7 @@
 
 The following DAC's have been explicitely added by RoPieee to be able to support native DSD.
 > [!IMPORTANT]
-> RoPieee supports USB Audio DAC's out-of-the-box. This list only mentions those DAC's that also support native DSD. So your DAC not being in this list does *not* mean it will not work with RoPieee. 
-
+> RoPieee supports USB Audio DAC's out-of-the-box. This list only mentions those DAC's that also support native DSD.
 
 | Manufacturer | Model |
 | -------------| ----- |

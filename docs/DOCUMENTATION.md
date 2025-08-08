@@ -191,9 +191,13 @@ If you're up to it, you can enable **Auto Update**. This makes it possible to in
 
 With **Web Authentication** you can limit access to RoPieee's webpage by asking for a password whenever someone accesses RoPieee webpage.
 
+The four buttons at the bottom of this webpage provides you with some extra functionality that normally is rarely needed. The **Send Feedback** is worth mentioning, because clicking this button results in a log archive being created and send to RoPieee HQ. It provides debug information that could help in analysing potential issues.
+
 ### Services settings
 
 Roon is the streaming service enabled by default in RoPieee. However, it is possible to enable and configure additional streaming solutions on the **`Services`** tab.
+
+The first service, **UPnP Bridge**, makes it possible to 'bridge' your UPnP device to a Squeezebox capable one. This makes it possible to use an UPnP device directly from within Roon because Roon supports the Squeezebox protocol out-of-the-box. This is very handy when you have an UPnP-capable streamer that does not support Roon's RAAT protocol directly.
 
 [TODO]
 

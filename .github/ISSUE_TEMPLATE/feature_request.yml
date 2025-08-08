@@ -1,7 +1,7 @@
 name: Feature Request
 description: File a feature request.
 title: "[Feature]: "
-labels: ["feature", "triage"]
+labels: ["enhancement", "triage"]
 projects: ["RoPieee/RoPieee"]
 assignees:
   - spockfish

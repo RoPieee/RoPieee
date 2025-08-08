@@ -15,6 +15,9 @@ _Keep in mind that everything in this documentation is related to the latest ava
   - [Remote](#remote-settings)
   - [Advanced](#advanced-settings)
   - [Services](#services-settings)
+    - [UPnP Bridge](#upnp-bridge)
+    - [UPnP/DLNA](#upnpdlna)
+    - [Airplay](#airplay)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
@@ -204,9 +207,14 @@ Roon is the streaming service enabled by default in RoPieee. However, it is poss
 > If you have more than one service enabled (next to Roon, which is enabled by default), it is important to realize that only one service can 'claim' the audio output on your RoPieee unit. This means that if you want to switch from one service to another, you need to wait a few seconds after you stopped playing on the first service. The audio output is then released by the former, and can be used (claimed) by the latter.
 
 #### UPnP Bridge
+
 The first service, **UPnP Bridge**, makes it possible to 'bridge' your UPnP device to a Squeezebox capable one. This makes it possible to use an UPnP device directly from within Roon because Roon supports the Squeezebox protocol out-of-the-box. This is very handy when you have an UPnP-capable streamer that does not support Roon's RAAT protocol directly.
 
+#### UPnP/DLNA
+
 The **UPnP/DLNA** tab on the webpage speaks for itself. The only parameter that must be set, is the **Audio Output**. The **Service Name** defines how your RoPieee unit will show up on the network when you start looking for UPnP/DLNA devices.
+
+#### Airplay
 
 With **Airplay** enabled you can stream music from an Apple device to your RoPieee unit. Again **Audio Output** is the only required parameter.
 

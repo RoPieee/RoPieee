@@ -38,7 +38,7 @@ Next to the Raspberry Pi, RoPieee also supports the now legacy network bridge fr
 
 To be able to write the RoPieee image to the Micro SD card you first need software like [Balena Etcher](https://etcher.balena.io/), and of course the latest RoPieee image that you can find [here](/docs/CHANGELOG.md) 
 
-RoPieee images are provided in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size, but requires decompression. Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you.
+RoPieee images are provided in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size, but requires decompression. Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you. There is no need to format the Micro SD card.
 
 > [!TIP]
 > If compression sounds like 'abracadabra' to you: don't worry, just download the uncompressed variant.

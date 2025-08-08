@@ -19,6 +19,8 @@ _Keep in mind that everything in this documentation is related to the latest ava
     - [UPnP/DLNA](#upnpdlna)
     - [Airplay](#airplay)
     - [Spotify Connect](#spotify-connect)
+    - [Squeezelite](#squeezelite)
+    - [HQPlayer NAA](#hqplayer-naa)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
@@ -221,8 +223,15 @@ With **Airplay** enabled you can stream music from an Apple device to your RoPie
 
 #### Spotify Connect
 
-With **Spotify Connect** you have the ability to stream directly from a Spotify app to your RoPieee device. This requires a Spotify subscription.
-[TODO]
+With **Spotify Connect** you have the ability to stream directly from a Spotify app to your RoPieee device.
+
+#### Squeezelite
+
+**Squeezelite** is a software player dedicated to the former Squeezebox ecosystem, which later became from Logitech and is now open sourced as [Lyrion](https://lyrion.org/). 
+
+#### HQPlayer NAA
+
+**HQPlayer NAA** (Network Audio Adapter) turns your RoPieee unit in a HQPlayer endpoint. HQPlayer's advanced protocol makes it possible to configure everything server side (in your HQPlayer application).
 
 ## Advanced topics
 

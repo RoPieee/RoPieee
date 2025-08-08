@@ -18,6 +18,7 @@ _Keep in mind that everything in this documentation is related to the latest ava
     - [UPnP Bridge](#upnp-bridge)
     - [UPnP/DLNA](#upnpdlna)
     - [Airplay](#airplay)
+    - [Spotify Connect](#spotify-connect)
 - [Advanced topics](#advanced-topics)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
@@ -218,6 +219,9 @@ The **UPnP/DLNA** tab on the webpage speaks for itself. The only parameter that 
 
 With **Airplay** enabled you can stream music from an Apple device to your RoPieee unit. Again **Audio Output** is the only required parameter.
 
+#### Spotify Connect
+
+With **Spotify Connect** you have the ability to stream directly from a Spotify app to your RoPieee device. This requires a Spotify subscription.
 [TODO]
 
 ## Advanced topics

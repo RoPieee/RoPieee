@@ -7,14 +7,15 @@ _Keep in mind that everything in this documentation is applicable to the latest 
 ## Table of contents
 
 - [Installation](#installation)
-- [Configuration](#configuration)
+- [Basic Configuration](#basic-configuration)
   - [System](#system-settings)
   - [Audio](#audio-settings)
   - [Network](#network-settings)
+- [Roon-only Settings](#roon-only-settings)
   - [Display](#display-settings)
   - [Remote](#remote-settings)
-  - [Advanced](#advanced-settings)
-  - [Services](#services-settings)
+- [Advanced Settings](#advanced-settings)
+- [Other Services](#services-settings)
     - [UPnP Bridge](#upnp-bridge)
     - [UPnP/DLNA](#upnpdlna)
     - [Airplay](#airplay)
@@ -22,6 +23,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
     - [Squeezelite](#squeezelite)
     - [HQPlayer NAA](#hqplayer-naa)
 - [Advanced topics](#advanced-topics)
+    - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
 
@@ -29,7 +31,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
 
 ### Hardware
 
-To install RoPieee you will need supported a supported Raspberry Pi and a microSD card of at least **8 GB** in capacity. Currently the following hardware is supported:
+To install RoPieee you will need supported a supported Raspberry Pi and a microSD card of at least **8 GB** in capacity. Currently, the following hardware is supported:
 
 | Raspberry Pi Family | Model |
 | ------------------- | ------------- |
@@ -93,7 +95,7 @@ Congratulations! :muscle: :clap: :notes:
 
 If you click on **`Continue`** (after you donated of course :wink:), you will see RoPieee's regular webpage. It uses several tabs that group specific settings, so let's walk them through.
 
-## Initial Configuration
+## Basic Configuration
 
 ### System settings
 

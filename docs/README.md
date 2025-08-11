@@ -35,7 +35,8 @@ To install RoPieee you will need supported a supported Raspberry Pi and a microS
 
 | Raspberry Pi Family | Model |
 | ------------------- | ------------- |
-| Raspberry Pi 3  | Raspberry Pi 3, Compute Module 3 and Zero W 2  |
+| Raspberry Pi 2  | Zero W 2  |
+| Raspberry Pi 3  | Raspberry Pi 3, Compute Module 3 |
 | Raspberry Pi 4  | Raspberry Pi 4 and Compute Module 4 |
 | Raspberry Pi 5  | Raspberry Pi 4 and Compute Module 5 |
 

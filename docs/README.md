@@ -31,12 +31,11 @@ _Keep in mind that everything in this documentation is applicable to the latest 
 
 ### Hardware
 
-To install RoPieee you will need supported a supported Raspberry Pi and a microSD card of at least **8 GB** in capacity. Currently, the following hardware is supported:
+To install RoPieee you will need a supported Raspberry Pi and a microSD card of at least **8 GB** in capacity. Currently, the following hardware is supported:
 
 | Raspberry Pi Family | Model |
 | ------------------- | ------------- |
-| Raspberry Pi 2  | Zero W 2  |
-| Raspberry Pi 3  | Raspberry Pi 3, Compute Module 3 |
+| Raspberry Pi 3  | Raspberry Pi 3, Compute Module 3, Zero W 2 |
 | Raspberry Pi 4  | Raspberry Pi 4 and Compute Module 4 |
 | Raspberry Pi 5  | Raspberry Pi 4 and Compute Module 5 |
 

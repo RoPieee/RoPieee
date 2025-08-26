@@ -8,6 +8,22 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2025.08**
+
+* NEW: new public website
+* NEW: GitHub project page + documentation
+* IMPROVEMENT: make (onboard) WiFi more reliable
+* IMPROVEMENT: add frequency band to wireless information
+* IMPROVEMENT: update Plexamp component
+* IMPROVEMENT: update Librespot component (Spotify)
+* IMPROVEMENT: update Linux kernel
+* FIX: [display] show previous image art when there is none
+* FIX: [display] volume popup is rotated on Display 2
+* FIX: 'auto suspend' is only supplied to the first USB DAC
+* FIX: devices tab shows channel of actual running version, not the setting
+
+[![Static Badge](https://img.shields.io/badge/Download-2025.08-blue)](/docs/releases/2025_08.md)
+
 **2025.06.1**
 
 * IMPROVEMENT: update HQPlayer NAA component

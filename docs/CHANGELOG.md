@@ -8,6 +8,16 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2025.08.1**
+
+* IMPROVEMENT: update Linux kernel
+* FIX: rare crash related to the SD card on a Pi3
+* FIX: race condition in USB auto suspend
+* FIX: USB auto suspend can not deal with 2 of the same USB DAC's
+* FIX: navigating to the 'network' tab in the webinterface takes a long time ([#6](https://github.com/RoPieee/RoPieee/issues/6))
+
+[![Static Badge](https://img.shields.io/badge/Download-2025.08.1-blue)](/docs/releases/2025_08.1.md)
+
 **2025.08**
 
 * NEW: new public website

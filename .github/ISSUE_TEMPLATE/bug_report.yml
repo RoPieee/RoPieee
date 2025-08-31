@@ -33,7 +33,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 2025.08 (Default)
+        - 2025.08.1 (Default)
+        - 2025.08
         - 2025.06.1
         - 2025.06
         - 2025.05

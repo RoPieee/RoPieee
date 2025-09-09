@@ -8,6 +8,13 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2025.08.2**
+
+* IMPROVEMENT: update Linux kernel
+* FIX: Squeezelite discovery is not working anymore ([#9](https://github.com/RoPieee/RoPieee/issues/9))
+
+[![Static Badge](https://img.shields.io/badge/Download-2025.08.2-blue)](/docs/releases/2025_08_2.md)
+
 **2025.08.1**
 
 * IMPROVEMENT: update Linux kernel

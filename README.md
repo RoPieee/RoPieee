@@ -30,7 +30,7 @@ RoPieee is an appliance that makes it possible to turn your Raspberry Pi in a ve
 5. Grab a cup of :coffee: (or a :tropical_drink:)
 6. After 15 minutes or so, you should be able to reach RoPieee's webpage at http://ropieee.local
 
-_You're now ready to stream music using Roon! For detailed information please have a look at the [documentation](https://github.com/RoPieee/RoPieee/blob/main/DOCUMENTATION.md)_
+_You're now ready to stream music using Roon! For detailed information please have a look at the [documentation](docs/README.md)_
 
 ## Highlights :sparkles:
 

@@ -66,9 +66,9 @@ body:
     id: feedback
     attributes:
       label: RoPieee Feedback ID
-      description: Please provide the Feedback ID, if you sent any
+      description: Please provide the Feedback ID. You can find this option on the 'advanced' tab in RoPieee's webinterface.
     validations:
-      required: false
+      required: true
   - type: textarea
     id: logs
     attributes:

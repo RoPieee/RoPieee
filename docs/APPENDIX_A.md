@@ -25,6 +25,7 @@ The following HAT's are supported by RoPieee. If your HAT is not in the list, th
 | HifiBerry | DAC2 HD
 | HifiBerry | DAC2 Pro
 | HifiBerry | DAC8x
+| HifiBerry | DAC+ ADC
 | HifiBerry | Digi/Digi+/Digi+ Pro
 | HifiBerry | Digi2 Pro
 | InnoMaker | HiFi DAC

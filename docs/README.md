@@ -126,7 +126,7 @@ Secondly you can configure Audio USB support. This is enabled by default. RoPiee
 
 ![USB settings!](/docs/images/ropieee-usb.png)
 
-With the **USB Force Volume** setting you have the option to force the volume control of the USB DAC when starting up RoPieee. _This option is rarely needed._
+With the **USB Force Volume** setting you have the option to force the volume control of the USB DAC when connected. _This option is rarely needed._
 
 And with **USB Auto Suspend** you can make the USB DAC shutdown after a defined timeout when being idle. This can be handy when the USB DAC is directly driving your power amplifier, in which case the output is disabled.
 

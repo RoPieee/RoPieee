@@ -8,6 +8,16 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2025.10**
+
+* NEW: introduce language localisation
+* NEW: add support for HifiBerry DAC+ ADC
+* IMPROVEMENT: update Librespot component (Spotify)
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: 'Force Volume Level' works when a USB DAC connects, not only during boot
+
+[![Static Badge](https://img.shields.io/badge/Download-2025.10-blue)](/docs/releases/2025_10.md)
+
 **2025.08.2**
 
 * IMPROVEMENT: update Linux kernel

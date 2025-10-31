@@ -11,7 +11,7 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 **2025.10.1**
 
 * IMPROVEMENT: update translations
-* FIX: UPnP: streaming is interrupted ([#23](https://github.com/RoPieee/RoPieee/issues/9))
+* FIX: UPnP: streaming is interrupted ([#23](https://github.com/RoPieee/RoPieee/issues/23))
 
 **2025.10**
 

@@ -13,6 +13,8 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 * IMPROVEMENT: update translations
 * FIX: UPnP: streaming is interrupted ([#23](https://github.com/RoPieee/RoPieee/issues/23))
 
+[![Static Badge](https://img.shields.io/badge/Download-2025.10.1-blue)](/docs/releases/2025_10_1.md)
+
 **2025.10**
 
 * NEW: introduce language localisation

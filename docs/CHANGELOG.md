@@ -8,6 +8,14 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2025.10.2**
+
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: minor translation fix in Display settings ([#27](https://github.com/RoPieee/RoPieee/issues/27))
+* FIX: Spotify doesn't play anymore ([#26](https://github.com/RoPieee/RoPieee/issues/26))
+
+[![Static Badge](https://img.shields.io/badge/Download-2025.10.2-blue)](/docs/releases/2025_10_2.md)
+
 **2025.10.1**
 
 * IMPROVEMENT: update translations

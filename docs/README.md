@@ -160,7 +160,7 @@ If using an official Raspberry Pi Touchscreen (both generation 1 and 2) attached
 > [!IMPORTANT]
 > The touchscreen functionality only works while using Roon.
 
-If the display is upside down, change the display **Orientation** setting to “Rotated” (this is case-dependant).
+If the display is upside down, change the display **Orientation** setting to “Flipped” (this is case-dependant).
 
 Type the name of the **Roon Default Zone** that the display should be associated with (e.g. what content should display on the screen): _this must be exactly as is specified in Roon settings._
 

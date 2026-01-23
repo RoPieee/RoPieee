@@ -8,6 +8,26 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.01**
+
+* NEW: add support for the 5 inch variant of the 'Display 2' touchscreen ([#36](https://github.com/RoPieee/RoPieee/issues/36))
+* NEW: add support for InnoMaker HiFi AMP Pro (v2)
+* NEW: add native DSD support for the TempoTec MARCH V ([#39](https://github.com/RoPieee/RoPieee/issues/39))
+* NEW: add support for Raspberry Pi model 3A+ ([#38](https://github.com/RoPieee/RoPieee/issues/38))
+* IMPROVEMENT: add support for Mediatek mt7921 based WiFi dongles
+* IMPROVEMENT: update HQPlayer NAA component
+* IMPROVEMENT: update Librespot component (Spotify)
+* IMPROVEMENT: update UPnP component
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: update Raspberry Pi firmware
+* IMPROVEMENT: support updating EEPROM bootloader on Compute Module 4
+* IMPROVEMENT: more translation work
+* FIX: zone selection screen not workable with many zones ([#40](https://github.com/RoPieee/RoPieee/issues/40))
+* FIX: rpi5 display 2 not displaying correctly ([#32](https://github.com/RoPieee/RoPieee/issues/32))
+* FIX: can't set brightness properly on Display 2 ([#33](https://github.com/RoPieee/RoPieee/issues/33))
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.01-blue)](/docs/releases/2026_01.md)
+
 **2025.10.2**
 
 * IMPROVEMENT: update Linux kernel

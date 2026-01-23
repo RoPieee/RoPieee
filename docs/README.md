@@ -26,20 +26,24 @@ _Keep in mind that everything in this documentation is applicable to the latest 
     - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
+- [Appendix C: supported USB WiFi dongles](/docs/APPENDIX_C.md)
 
 ## Installation
 
 ### Hardware
 
-To install RoPieee you will need a supported Raspberry Pi and a microSD card of at least **8 GB** in capacity. Currently, the following hardware is supported:
+To install RoPieee you will need a supported Raspberry Pi with at least **1GB** of RAM, and a microSD card of at least **8 GB** in capacity. Currently, the following hardware is supported:
 
 | Raspberry Pi Family | Model |
 | ------------------- | ------------- |
-| Raspberry Pi 3  | Raspberry Pi 3, Compute Module 3, Zero W 2 |
+| Raspberry Pi 3  | Raspberry Pi 3A+, 3B+, Compute Module 3, Zero W 2 |
 | Raspberry Pi 4  | Raspberry Pi 4 and Compute Module 4 |
 | Raspberry Pi 5  | Raspberry Pi 4 and Compute Module 5 |
 
-In addition to the Raspberry Pi, RoPieee also supports the legacy network bridge from **Allo** called the **Usbridge (Signature)**, now discontinued.
+In addition to the Raspberry Pi, RoPieee also supports the legacy (discontinued) network bridge from formerly **Allo**, called the **Usbridge (Signature)**.
+
+> [!WARNING]
+> A screen is *not* supported on the Pi 3A+.
 
 ### Preparing the microSD card
 
@@ -67,7 +71,7 @@ RoPieee requires internet access during installation. Ideally this is done by at
 If that's not possible (for example, the **Raspberry Pi Zero 2 W** lacks a cable connection), follow the following WiFi guide.
 
 #### RoPieee WiFi access point setup (only if required)
-If no ethernet connection is found, RoPieee will setup a WiFi access point called `RoPieee-AP-[unique_id]`. Connect your computer to this WiFi network and use `goropieee` as password.
+If no ethernet connection is found, RoPieee will setup a WiFi access point called `RoPieee-AP-[unique_id]`. Connect your computer to this WiFi network and use `goropieee` as password. Now you can connect to RoPieee's web interface at http://192.168.250.1, and select the WiFi network.
 
 ![Connecting to the RoPieee AP](/docs/images/ropieee-ap.png)
 
@@ -144,7 +148,7 @@ RoPieee also supports wireless (WiFi) connections, if a wireless interface is av
 
 ![Wireless settings!](/docs/images/ropieee-wireless.png)
 
-Now select the **Interface**: RoPieee supports not only the internal wireless interface, but also external USB WiFi dongles. The reason to use an external dongle is that they have a larger antenna in comparison to the onboard chip.
+Now select the **Interface**: RoPieee supports not only the internal wireless interface, but also external USB WiFi dongles. The reason to use an external dongle is that they have a larger antenna in comparison to the onboard chip. [Here](/docs/APPENDIX_C.md) you can find a list of known working WiFi dongles.
 
 Next click the **SCAN** button to start scanning for wireless networks. After a few seconds the scanning will finish and you will be able to select the correct wireless network. Provide a password and your wireless connection is up and running.
 
@@ -155,7 +159,10 @@ Next click the **SCAN** button to start scanning for wireless networks. After a 
 
 ### Display settings
 
-If using an official Raspberry Pi Touchscreen (both generation 1 and 2) attached to your Raspberry Pi, RoPieee will show a **`Display`** tab where you can configure the behaviour of the touchscreen.
+If using an official Raspberry Pi Touchscreen (both generation 1 and 2) attached via DSI to your Raspberry Pi, RoPieee will show a **`Display`** tab where you can configure the behaviour of the touchscreen.
+
+> [!IMPORTANT]
+> On the Raspberry Pi 5 you *must* use the DSI connector labeled 'DISP0'.
 
 > [!IMPORTANT]
 > The touchscreen functionality only works while using Roon.
@@ -171,6 +178,9 @@ Most settings speak for themselves. If you provide a **Screen Saver Timeout**, t
 
 > [!TIP]
 > You can toggle the different states (player, clock, and off) by pressing the cover art section on the screen.
+
+> [!TIP]
+> You can change the brightness of the screen by pressing the right bottom corner.
 
 > [!TIP]
 > The display can show content from any Roon Zone, not just the Raspberry Pi attached to the display.

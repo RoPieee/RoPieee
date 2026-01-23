@@ -59,6 +59,7 @@ The following DAC's have been explicitely added by RoPieee to be able to support
 | PS Audio | NuWave DAC
 | Quad | Vena 2
 | Rotel | DAC
+| TempoTec | MARCH V
 | TEAC | UD-503
 | Topping | DX7s
 | Singxer | F-1 converter board

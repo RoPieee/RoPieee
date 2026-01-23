@@ -31,6 +31,7 @@ The following HAT's are supported by RoPieee. If your HAT is not in the list, th
 | InnoMaker | HiFi DAC
 | InnoMaker | HiFi DAC Pro
 | InnoMaker | HiFi AMP
+| InnoMaker | HiFi AMP Pro (v2)
 | InnoMaker | Digi One
 | IQaudIO | Pi-DAC(+/Pro/Zero)
 | IQaudIO | Pi-DigiAMP+

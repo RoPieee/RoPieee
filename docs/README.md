@@ -38,7 +38,7 @@ To install RoPieee you will need a supported Raspberry Pi with at least **1GB** 
 | ------------------- | ------------- |
 | Raspberry Pi 3  | Raspberry Pi 3A+, 3B+, Compute Module 3, Zero W 2 |
 | Raspberry Pi 4  | Raspberry Pi 4 and Compute Module 4 |
-| Raspberry Pi 5  | Raspberry Pi 4 and Compute Module 5 |
+| Raspberry Pi 5  | Raspberry Pi 5 and Compute Module 5 |
 
 In addition to the Raspberry Pi, RoPieee also supports the legacy (discontinued) network bridge from formerly **Allo**, called the **Usbridge (Signature)**.
 

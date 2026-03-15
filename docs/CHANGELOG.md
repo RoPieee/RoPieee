@@ -11,6 +11,7 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 **2026.03**
 
 * NEW: add native DSD support for the McIntosh DA2
+* NEW: add native DSD support for the HiBy FC4 ([#53](https://github.com/RoPieee/RoPieee/issues/53))
 * NEW: add support for Snapcast ([#43](https://github.com/RoPieee/RoPieee/issues/43))
 * NEW: add French translation
 * NEW: show HQPlayer NAA version ([#48](https://github.com/RoPieee/RoPieee/issues/48))

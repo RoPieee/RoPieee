@@ -8,6 +8,20 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.03**
+
+* NEW: add native DSD support for the McIntosh DA2
+* NEW: add support for Snapcast ([#43](https://github.com/RoPieee/RoPieee/issues/43))
+* NEW: add French translation
+* NEW: show HQPlayer NAA version ([#48](https://github.com/RoPieee/RoPieee/issues/48))
+* IMPROVEMENT: update Shairport-Sync component (Airplay) ([#52](https://github.com/RoPieee/RoPieee/issues/52))
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: more translation work
+* FIX: hotspot setup method shows broken WiFi names ([#50](https://github.com/RoPieee/RoPieee/issues/50))
+* FIX: force volume not working on Topping E70 Velvet ([#51](https://github.com/RoPieee/RoPieee/issues/51))
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.03-blue)](/docs/releases/2026_03.md)
+
 **2026.01**
 
 * NEW: add support for the 5 inch variant of the 'Display 2' touchscreen ([#36](https://github.com/RoPieee/RoPieee/issues/36))

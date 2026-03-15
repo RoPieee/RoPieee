@@ -26,6 +26,7 @@ The following DAC's have been explicitely added by RoPieee to be able to support
 | Gustard | DAC-X20U
 | HDTA | Serenade DSD
 | Hegel | HD12
+| HiBy | FC4
 | Holo Springs | Level 3 R2R DAC
 | iFi | Audio micro/nano iDSD
 | iFi | Audio Pro iDSD
@@ -35,6 +36,7 @@ The following DAC's have been explicitely added by RoPieee to be able to support
 | Matrix | Audio X-Sabre
 | Matrix | Audio Mini-i Pro
 | Matrix | Audio X-SPDIF 2
+| McIntosh | DA2
 | MiniDSP | MCHStreamer
 | Mola Mola | DAC
 | Mola Mola | Makua

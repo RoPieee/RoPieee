@@ -22,6 +22,8 @@ _Keep in mind that everything in this documentation is applicable to the latest 
     - [Spotify Connect](#spotify-connect)
     - [Squeezelite](#squeezelite)
     - [HQPlayer NAA](#hqplayer-naa)
+    - [Plexamp](#plexamp)
+    - [Snapcast](#snapcast)
 - [Advanced topics](#advanced-topics)
     - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
@@ -249,6 +251,14 @@ With **Spotify Connect** you have the ability to stream directly from a Spotify 
 #### HQPlayer NAA
 
 **HQPlayer NAA** (Network Audio Adapter) turns your RoPieee unit in a HQPlayer endpoint. HQPlayer's advanced protocol makes it possible to configure everything server side (in your HQPlayer application).
+
+#### Plexamp
+
+**Plexamp** is an audio player capable of streaming audio content from a Plex server. It requires a Plex Pass.
+
+#### Snapcast
+
+**Snapcast** is an open source, multiroom audio player.
 
 ## Advanced topics
 

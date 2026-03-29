@@ -28,6 +28,21 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: solution
+    attributes:
+      label: Solution
+      description: Which streaming solution are you using when this bug appears?
+      options:
+        - Roon (Default)
+        - HQPlayer
+        - Airplay
+        - Squeezelite
+        - Spotify
+        - Songcast
+        - UPnP
+        - Plexamp
+      required: true
+  - type: dropdown
     id: version
     attributes:
       label: Version

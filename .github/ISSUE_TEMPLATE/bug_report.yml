@@ -41,6 +41,7 @@ body:
         - Songcast
         - UPnP
         - Plexamp
+    validations:
       required: true
   - type: dropdown
     id: version

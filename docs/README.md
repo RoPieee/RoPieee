@@ -47,6 +47,9 @@ In addition to the Raspberry Pi, RoPieee also supports the legacy (discontinued)
 > [!WARNING]
 > A screen is *not* supported on the Pi 3A+.
 
+> [!WARNING]
+> The legacy **Allo Usbridge** is only supported with a Raspberry Pi Compute Module 3 (CM3) board.
+
 ### Preparing the microSD card
 
 To write (copy) the RoPieee image to the microSD card, you first need software appropriate to your computer OS, like [Balena Etcher](https://etcher.balena.io/), and the latest RoPieee image which is always found [here](/docs/CHANGELOG.md) 

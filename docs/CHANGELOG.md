@@ -8,6 +8,18 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.04**
+
+* NEW: specify Server IP for Snapcast ([#61](https://github.com/RoPieee/RoPieee/issues/61))
+* NEW: add support for Raspberry Pi CM4S
+* IMPROVEMENT: update UPnP component
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: more translation work
+* IMPROVEMENT: update Raspberry Pi EEPROM bootloader
+* FIX: default Roon-Zone does not accept special characters ([#25](https://github.com/RoPieee/RoPieee/issues/25))
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.04-blue)](/docs/releases/2026_04.md)
+
 **2026.03**
 
 * NEW: add native DSD support for the McIntosh DA2

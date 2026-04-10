@@ -22,7 +22,7 @@ The following HAT's are supported by RoPieee. If your HAT is not in the list, th
 | HifiBerry | AMP3
 | HifiBerry | MiniAmp
 | HifiBerry | DAC/DAC+/DAC+ Pro/DAC+ DSP/DAC+ Zero
-| HifiBerry | DAC2 HD
+| HifiBerry | DAC2 HD[^3]
 | HifiBerry | DAC2 Pro
 | HifiBerry | DAC8x
 | HifiBerry | DAC+ ADC
@@ -51,3 +51,4 @@ The following HAT's are supported by RoPieee. If your HAT is not in the list, th
 
 [^1]: Although the Piano DAC 2.1 is supported, there's no mechanism to configure its specific parameters.
 [^2]: Audio only, the second screen is not supported.
+[^3]: The DAC2 HD has problems (especially when using Roon) with volume control snapping back to zero.

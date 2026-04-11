@@ -42,25 +42,38 @@ To install RoPieee you will need a supported Raspberry Pi with at least **1GB** 
 | Raspberry Pi 4  | Raspberry Pi 4 and Compute Module 4 |
 | Raspberry Pi 5  | Raspberry Pi 5 and Compute Module 5 |
 
-In addition to the Raspberry Pi, RoPieee also supports the legacy (discontinued) network bridge from formerly **Allo**, called the **Usbridge (Signature)**.
+In addition to the Raspberry Pi, RoPieee also supports the legacy (discontinued) network bridge from formerly **Allo**, called the **Usbridge (Signature)**. The [Orchard Audio](https://orchardaudio.com/) **PecanPi+**, when paired with a Raspberry Pi 3, is also supported.
 
 > [!WARNING]
 > A screen is *not* supported on the Pi 3A+.
 
-> [!WARNING]
-> The legacy **Allo Usbridge** is only supported with a Raspberry Pi Compute Module 3 (CM3) board.
+### Software
 
-### Preparing the microSD card
+Begin by downloading the current RoPieee version corresponding to your specific hardware model. Two variants are available for each Raspberry Pi model: a regular image and a compressed image. The compressed image is smaller, which is advantageous for slower internet connections. The compressed image must first be decompressed before it can be flashed.
 
-To write (copy) the RoPieee image to the microSD card, you first need software appropriate to your computer OS, like [Balena Etcher](https://etcher.balena.io/), and the latest RoPieee image which is always found [here](/docs/CHANGELOG.md) 
-
-RoPieee images are provided both in a compressed (XZ) variant and an uncompressed one. The compressed variant is smaller in size (downloads faster), but requires decompression. Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you. There is no need to format the microSD card before writing.
+Software such as [Balena Etcher](https://etcher.balena.io/) is able to do that automagically for you.
 
 > [!TIP]
 > If compression sounds like 'abracadabra' to you: don't worry, just download the uncompressed variant.
 
+Download the latest stable release from [here](/docs/CHANGELOG.md)
+
 > [!IMPORTANT]
 > Make sure you download the correct image corresponding to your specific Raspberry Pi hardware.
+
+#### Network installer
+
+The RoPieee Network Installer allows for direct installation of RoPieee from the internet, offering several benefits. This generic installer image works across all Raspberry Pi models and is very small, which significantly reduces the initial download and flashing time.
+
+> [!IMPORTANT]
+> The Network Installer requires a wired internet connection.
+
+### Preparing the microSD card
+
+To write (copy) the RoPieee image to the microSD card, you first need software appropriate to your computer OS, like [Balena Etcher](https://etcher.balena.io/).
+
+> [!TIP]
+> There is **no** need to format the microSD card.
 
 ### Start the installation process
 

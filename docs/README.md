@@ -63,7 +63,7 @@ Download the latest stable release from [here](/docs/CHANGELOG.md)
 
 #### Network installer
 
-The RoPieee Network Installer allows for direct installation of RoPieee from the internet, offering several benefits. This generic installer image works across all Raspberry Pi models and is very small, which significantly reduces the initial download and flashing time.
+The **RoPieee Network Installer** allows for direct installation of RoPieee from the internet, offering several benefits. This generic installer image works across all Raspberry Pi models and is very small, which significantly reduces the initial download and flashing time.
 
 > [!IMPORTANT]
 > The Network Installer requires a wired internet connection.

@@ -68,6 +68,8 @@ The RoPieee Network Installer allows for direct installation of RoPieee from the
 > [!IMPORTANT]
 > The Network Installer requires a wired internet connection.
 
+Download the Network Installer from [here](/docs/NETWORK_INSTALLER.md)
+
 ### Preparing the microSD card
 
 To write (copy) the RoPieee image to the microSD card, you first need software appropriate to your computer OS, like [Balena Etcher](https://etcher.balena.io/).

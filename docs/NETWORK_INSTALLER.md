@@ -7,5 +7,8 @@ So installation of RoPieee becomes as simple as this:
 3. Insert the MicroSD card into your Raspberry Pi.
 4. Power it on.
 
+> [!IMPORTANT]
+> Make sure there is a wired internet connection!
+
 > [!WARNING]
-> The Network Installer will not work on the Orchard Audio PecanPi+ device.
+> The Network Installer will **not** work on the Orchard Audio PecanPi+ device.

@@ -2,7 +2,7 @@ The **RoPieee Network Installer** simplifies the installation process. It automa
 
 So installation of RoPieee becomes as simple as this:
 
-1. Download the Network Installer [compressed](https://image.ropieee.io/ropieee_net_installer-20260411.3480.bin.xz) and [uncompressed](https://image.ropieee.io/ropieee_net_installer-20260411.3480.bin)
+1. Download the Network Installer [compressed](https://image.ropieee.io/ropieee_net_installer-20260424.3551.bin.xz) and [uncompressed](https://image.ropieee.io/ropieee_net_installer-20260424.3551.bin)
 2. Flash this image onto the microSD card.
 3. Insert the MicroSD card into your Raspberry Pi.
 4. Power it on.

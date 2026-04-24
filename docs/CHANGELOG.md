@@ -8,6 +8,14 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.04.1**
+
+* NEW: add support for Raspberry Pi CM5L
+* IMPROVEMENT: update Linux kernel
+* FIX: Airplay Audio adds subtle strange noise "clicks" ([#64](https://github.com/RoPieee/RoPieee/issues/64))
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.04.1-blue)](/docs/releases/2026_04_1.md)
+
 **2026.04**
 
 * NEW: specify Server IP for Snapcast ([#61](https://github.com/RoPieee/RoPieee/issues/61))

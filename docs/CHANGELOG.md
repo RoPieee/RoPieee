@@ -8,6 +8,18 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.05**
+
+* NEW: show active USB DAC state
+* NEW: update to latest LTS Linux kernel (6.18)
+* IMPROVEMENT: add watchdog for wireless connections
+* IMPROVEMENT: update Raspberry Pi EEPROM bootloader
+* IMPROVEMENT: update HQPlayer NAA component
+* IMPROVEMENT: update Shairport-Sync component (Airplay)
+* IMPROVEMENT: update Plexamp component
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.05-blue)](/docs/releases/2026_05.md)
+
 **2026.04.1**
 
 * NEW: add support for Raspberry Pi CM5L

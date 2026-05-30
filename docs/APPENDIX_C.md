@@ -7,3 +7,6 @@ RoPieee is compatible with a wide array of USB WiFi dongles, thanks to its suppo
 | Brostrend    | AX9L       |
 | Realtek      | RTL8811AU 802.11a/b/g/n/ac WLAN Adapter
 | TP-Link      | Archer T4U |
+| TP-Link      | Archer T2U PLUS
+| Mediatek     | MT7612U 802.11a/b/g/n/ac Wireless Adapter
+| Edimax       | Edimax AC600 USB

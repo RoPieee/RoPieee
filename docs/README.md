@@ -278,7 +278,8 @@ With **Spotify Connect** you have the ability to stream directly from a Spotify 
 
 **Snapcast** is an open source, multiroom audio player.
 
-## Advanced topics
+> [!IMPORTANT]
+> Due to limitations Snapcast does not support hardware mixer(s).
 
 ### About native DSD support
 

@@ -146,7 +146,12 @@ If you have configured a HAT, you can also potentially enable **Dynamic Audio Po
 > [!WARNING]
 > Not all HAT's support DAPM!
 
-Secondly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
+Secondly you can configure HDMI audio support. This is disabled by default.
+
+> [!NOTE]
+> Only stereo is supported with HDMI.
+
+And lastly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
 
 ![USB settings!](/docs/images/ropieee-usb.png)
 
@@ -242,6 +247,8 @@ Roon is the streaming service enabled by default in RoPieee. However, it is poss
 
 > [!NOTE]
 > Only enable additional services if you actually plan on using them.
+
+### Convenience Switching
 
 > [!IMPORTANT]
 > If you have more than one service enabled (in addition to Roon, which is enabled by default), it is important to realize that only one service can 'claim' the audio output on your RoPieee unit at a time. This means that if you want to switch from one service to another, you need to wait a few seconds after you have stopped playing on the first service until the audio output is released and availabile for the new service to bind to.

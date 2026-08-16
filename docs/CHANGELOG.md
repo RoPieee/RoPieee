@@ -8,6 +8,21 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.08**
+
+* NEW: service convenience switching
+* NEW: add support for HDMI
+* NEW: introducing RoPieee Spinner: a Sendspin-native client
+* NEW: introduce 'max sample rate' setting for Squeezelite
+* IMPROVEMENT: update Linux kernel
+* IMPROVEMENT: update Shairport-Sync component (Airplay)
+* IMPROVEMENT: update HQPlayer NAA component
+* IMPROVEMENT: update Librespot component (Spotify)
+* FIX: Plexamp has been removed as this is no longer supported by Plex
+* FIX: WiFi network scan stuck ([#75](https://github.com/RoPieee/RoPieee/issues/75))
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.08-blue)](/docs/releases/2026_08.md)
+
 **2026.05**
 
 * NEW: show active USB DAC state

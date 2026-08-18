@@ -16,13 +16,15 @@ _Keep in mind that everything in this documentation is applicable to the latest 
   - [Remote](#remote-settings)
 - [Advanced Settings](#advanced-settings)
 - [Other Services](#services-settings)
-    - [UPnP Bridge](#upnp-bridge)
-    - [UPnP/DLNA](#upnpdlna)
-    - [Airplay](#airplay)
-    - [Spotify Connect](#spotify-connect)
-    - [Squeezelite](#squeezelite)
-    - [HQPlayer NAA](#hqplayer-naa)
-    - [Snapcast](#snapcast)
+  - [Convenience Switching](#convenience-switching)
+    - [Controlled by Roon](#controlled-by-roon)
+  - [UPnP Bridge](#upnp-bridge)
+  - [UPnP/DLNA](#upnpdlna)
+  - [Airplay](#airplay)
+  - [Spotify Connect](#spotify-connect)
+  - [Squeezelite](#squeezelite)
+  - [HQPlayer NAA](#hqplayer-naa)
+  - [Snapcast](#snapcast)
 - [Advanced topics](#advanced-topics)
     - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
@@ -266,31 +268,31 @@ Squeezelite, Airplay, and HQPlayer NAA can each also be reached *directly from w
 > [!TIP]
 > Only enable **Controlled by Roon** if you're actually routing that service's audio through Roon. If you use the service independently (e.g. an independent LMS client, or an iPhone streaming via AirPlay) keep this toggle disabled so it switches normally.
 
-#### UPnP Bridge
+### UPnP Bridge
 
 The first service, **UPnP Bridge**, makes it possible to 'bridge' your UPnP device to a Squeezebox-capable one. This makes it possible to use an UPnP device directly from within Roon because Roon supports the Squeezebox protocol out-of-the-box. This is very handy when you have an UPnP-capable streamer that does not support Roon's RAAT protocol directly.
 
-#### UPnP/DLNA
+### UPnP/DLNA
 
 The **UPnP/DLNA** tab on the webpage speaks for itself. The only parameter that must be set, is the **Audio Output**. The **Service Name** defines how your RoPieee unit will show up on the network when you start looking for UPnP/DLNA devices.
 
-#### Airplay
+### Airplay
 
 With **Airplay** enabled you can stream music from an Apple device to your RoPieee unit. Again **Audio Output** is the only required parameter.
 
-#### Spotify Connect
+### Spotify Connect
 
 With **Spotify Connect** you have the ability to stream directly from a Spotify app to your RoPieee device.
 
-#### Squeezelite
+### Squeezelite
 
 **Squeezelite** is a software player dedicated to the former Squeezebox ecosystem, which later was owned by Logitech, but now is open sourced as [Lyrion](https://lyrion.org/). 
 
-#### HQPlayer NAA
+### HQPlayer NAA
 
 **HQPlayer NAA** (Network Audio Adapter) turns your RoPieee unit in a HQPlayer endpoint. HQPlayer's advanced protocol makes it possible to configure everything server side (in your HQPlayer application).
 
-#### Snapcast
+### Snapcast
 
 **Snapcast** is an open source, multiroom audio player.
 

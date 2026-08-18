@@ -22,7 +22,6 @@ _Keep in mind that everything in this documentation is applicable to the latest 
     - [Spotify Connect](#spotify-connect)
     - [Squeezelite](#squeezelite)
     - [HQPlayer NAA](#hqplayer-naa)
-    - [Plexamp](#plexamp)
     - [Snapcast](#snapcast)
 - [Advanced topics](#advanced-topics)
     - [Native DSD support](#about-native-dsd-support)
@@ -250,8 +249,22 @@ Roon is the streaming service enabled by default in RoPieee. However, it is poss
 
 ### Convenience Switching
 
-> [!IMPORTANT]
-> If you have more than one service enabled (in addition to Roon, which is enabled by default), it is important to realize that only one service can 'claim' the audio output on your RoPieee unit at a time. This means that if you want to switch from one service to another, you need to wait a few seconds after you have stopped playing on the first service until the audio output is released and availabile for the new service to bind to.
+RoPieee supports **Convenience Switching** for Roon, UPnP Bridge, UPnP/DLNA, Airplay, and Squeezelite: press play on any of these services and the currently active one is automatically paused (or stopped) so the new one can claim the audio output. There's no need to manually stop the previous service or wait around for the device to free up.
+
+> [!NOTE]
+> Spotify Connect and Snapcast do not yet participate in Convenience Switching. If you use either alongside another service, you still need to manually stop the currently active one first.
+
+Two services need a small one-time setup step before Convenience Switching works:
+
+- **Roon**: enable **External Source Control** for your target zone and select the RoPieee Extension.
+- **HQPlayer NAA**: enable remote access.
+
+#### Controlled by Roon
+
+Squeezelite, Airplay, and HQPlayer NAA can each also be reached *directly from within Roon* (Roon supports the Squeezebox protocol natively for Squeezelite, can drive HQPlayer directly, or you may route a Roon zone over AirPlay). In that case, enable the **Controlled by Roon** toggle on that service's settings page. This tells Convenience Switching that Roon owns the audio output for that path, so the service won't try to displace Roon when Roon itself starts playing through it.
+
+> [!TIP]
+> Only enable **Controlled by Roon** if you're actually routing that service's audio through Roon. If you use the service independently (e.g. an independent LMS client, or an iPhone streaming via AirPlay) keep this toggle disabled so it switches normally.
 
 #### UPnP Bridge
 
@@ -276,10 +289,6 @@ With **Spotify Connect** you have the ability to stream directly from a Spotify 
 #### HQPlayer NAA
 
 **HQPlayer NAA** (Network Audio Adapter) turns your RoPieee unit in a HQPlayer endpoint. HQPlayer's advanced protocol makes it possible to configure everything server side (in your HQPlayer application).
-
-#### Plexamp
-
-**Plexamp** is an audio player capable of streaming audio content from a Plex server. It requires a Plex Pass.
 
 #### Snapcast
 

@@ -26,7 +26,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
   - [HQPlayer NAA](#hqplayer-naa)
   - [Snapcast](#snapcast)
 - [Advanced topics](#advanced-topics)
-    - [Native DSD support](#about-native-dsd-support)
+  - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
 - [Appendix B: USB DAC's with native DSD](/docs/APPENDIX_B.md)
 - [Appendix C: supported USB WiFi dongles](/docs/APPENDIX_C.md)
@@ -298,6 +298,8 @@ With **Spotify Connect** you have the ability to stream directly from a Spotify 
 
 > [!IMPORTANT]
 > Due to limitations Snapcast does not support hardware mixer(s).
+
+## Advanced topics
 
 ### About native DSD support
 

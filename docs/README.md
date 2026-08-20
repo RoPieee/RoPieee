@@ -256,6 +256,9 @@ RoPieee supports **Convenience Switching** for Roon, UPnP Bridge, UPnP/DLNA, Air
 > [!NOTE]
 > Spotify Connect and Snapcast do not yet participate in Convenience Switching. If you use either alongside another service, you still need to manually stop the currently active one first.
 
+> [!NOTE]
+> Convenience Switching only works when your device has a single DAC (audio output). If you have multiple DACs attached, each service can claim its own output independently, so RoPieee can't determine which one should be paused or stopped.
+
 Two services need a small one-time setup step before Convenience Switching works:
 
 - **Roon**: enable **External Source Control** for your target zone and select the RoPieee Extension.

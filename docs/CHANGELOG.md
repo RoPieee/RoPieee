@@ -8,6 +8,13 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.08.1**
+
+* IMPROVEMENT: add 'Controlled by Roon' switch for AirPlay, Squeezelite and HQPlayer, so Convenience Switching correctly treats them as cooperating with Roon instead of stopping playback
+* IMPROVEMENT: improve mDNS discovery on RoPieee Spinner
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.08.1-blue)](/docs/releases/2026_08_1.md)
+
 **2026.08**
 
 * NEW: service convenience switching

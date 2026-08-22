@@ -259,6 +259,8 @@ RoPieee supports **Convenience Switching** for Roon, UPnP Bridge, UPnP/DLNA, Air
 > [!NOTE]
 > Convenience Switching only works when your device has a single DAC (audio output). If you have multiple DACs attached, each service can claim its own output independently, so RoPieee can't determine which one should be paused or stopped.
 
+A **Convenience Switching** toggle at the top of the **`Services`** tab lets you turn this behavior off entirely. Turn it off if you run multiple services on separate DACs and don't want them to interrupt each other.
+
 Two services need a small one-time setup step before Convenience Switching works:
 
 - **Roon**: enable **External Source Control** for your target zone and select the RoPieee Extension.

@@ -8,6 +8,14 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.08.2**
+
+* NEW: add a switch to turn Convenience Switching off, for setups with multiple services on separate DACs
+* FIX: Squeezelite could keep the audio device locked when switched away from, blocking the next service from starting
+* FIX: RoPieee Spinner could get stuck repeatedly reconnecting when switched away from and back
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.08.2-blue)](/docs/releases/2026_08_2.md)
+
 **2026.08.1**
 
 * IMPROVEMENT: add 'Controlled by Roon' switch for AirPlay, Squeezelite and HQPlayer, so Convenience Switching correctly treats them as cooperating with Roon instead of stopping playback

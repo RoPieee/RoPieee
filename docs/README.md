@@ -10,6 +10,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
 - [Basic Configuration](#basic-configuration)
   - [System](#system-settings)
   - [Audio](#audio-settings)
+    - [HDMI](#hdmi-settings)
   - [Network](#network-settings)
 - [Roon-only Settings](#roon-only-settings)
   - [Display](#display-settings)
@@ -25,6 +26,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
   - [Squeezelite](#squeezelite)
   - [HQPlayer NAA](#hqplayer-naa)
   - [Snapcast](#snapcast)
+  - [RoPieee Spinner](#ropieee-spinner)
 - [Advanced topics](#advanced-topics)
   - [Native DSD support](#about-native-dsd-support)
 - [Appendix A: supported HAT's](/docs/APPENDIX_A.md)
@@ -147,12 +149,18 @@ If you have configured a HAT, you can also potentially enable **Dynamic Audio Po
 > [!WARNING]
 > Not all HAT's support DAPM!
 
-Secondly you can configure HDMI audio support. This is disabled by default.
+#### HDMI settings
+
+RoPieee can also output audio over HDMI: enable **Audio HDMI** on the **`Audio`** tab. This is disabled by default, and can be used in parallel with an Audio HAT and/or USB audio.
 
 > [!NOTE]
-> Only stereo is supported with HDMI.
+> Only stereo is supported over HDMI.
 
-And lastly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
+Once enabled, HDMI becomes available as an audio output option (shown as "HDMI: &lt;device&gt;") on each service's settings page, right alongside your HAT and USB DAC's. The **`Audio`** tab also shows live HDMI lock status (`LOCKED by <process>` / `IDLE`).
+
+#### USB settings
+
+Lastly you can configure Audio USB support. This is enabled by default. RoPieee will show the USB DAC's that are connected (make sure they are powered on!):
 
 ![USB settings!](/docs/images/ropieee-usb.png)
 
@@ -251,7 +259,7 @@ Roon is the streaming service enabled by default in RoPieee. However, it is poss
 
 ### Convenience Switching
 
-RoPieee supports **Convenience Switching** for Roon, UPnP Bridge, UPnP/DLNA, Airplay, and Squeezelite: press play on any of these services and the currently active one is automatically paused (or stopped) so the new one can claim the audio output. There's no need to manually stop the previous service or wait around for the device to free up.
+RoPieee supports **Convenience Switching** for Roon, UPnP Bridge, UPnP/DLNA, Airplay, Squeezelite, and RoPieee Spinner: press play on any of these services and the currently active one is automatically paused (or stopped) so the new one can claim the audio output. There's no need to manually stop the previous service or wait around for the device to free up.
 
 > [!NOTE]
 > Spotify Connect and Snapcast do not yet participate in Convenience Switching. If you use either alongside another service, you still need to manually stop the currently active one first.
@@ -303,6 +311,15 @@ With **Spotify Connect** you have the ability to stream directly from a Spotify 
 
 > [!IMPORTANT]
 > Due to limitations Snapcast does not support hardware mixer(s).
+
+### RoPieee Spinner
+
+**RoPieee Spinner** is a native [Sendspin](https://github.com/Sendspin) player, built for synchronized multi-room audio. It auto-discovers Sendspin servers on your network - no manual server address needed - and keeps playback in sync across rooms using clock-drift compensation.
+
+> [!NOTE]
+> Sendspin is [Music Assistant](https://music-assistant.io/)'s native streaming protocol. Enabling RoPieee Spinner is how RoPieee integrates with Music Assistant - there's no separate Music Assistant service to enable.
+
+Configure the **Service Name** RoPieee Spinner advertises on the network (defaults to the hostname) and the **Audio Output** to use. You can optionally cap the **Max Sample Rate** Spinner will play at; this option is hidden when Audio Output is set to HDMI, since HDMI's sample rate is forced server-side.
 
 ## Advanced topics
 

@@ -11,6 +11,7 @@ _Keep in mind that everything in this documentation is applicable to the latest 
   - [System](#system-settings)
   - [Audio](#audio-settings)
     - [HDMI](#hdmi-settings)
+    - [USB](#usb-settings)
   - [Network](#network-settings)
 - [Roon-only Settings](#roon-only-settings)
   - [Display](#display-settings)

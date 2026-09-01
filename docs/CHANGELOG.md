@@ -8,6 +8,12 @@ A RoPieee unit checks for updates every few hours. When it finds an update it wi
 
 ## Changelog ##
 
+**2026.08.3**
+
+* FIX: Roon Bridge failed to start after the latest Roon Bridge update
+
+[![Static Badge](https://img.shields.io/badge/Download-2026.08.3-blue)](/docs/releases/2026_08_3.md)
+
 **2026.08.2**
 
 * NEW: add a switch to turn Convenience Switching off, for setups with multiple services on separate DACs
